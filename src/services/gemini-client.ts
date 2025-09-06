@@ -79,7 +79,7 @@ class GeminiService {
         - Expand and enhance the original post content: "${
           data.postText
         }" into a comprehensive, engaging post
-        - Make it a detailed post of 400-500 words for maximum engagement and storytelling
+        - Make it a detailed post of 200-300 words for maximum engagement and storytelling
         - Structure it with multiple paragraphs for readability
         - Include a compelling hook in the first sentence
         - Add storytelling elements, behind-the-scenes insights, or personal anecdotes
