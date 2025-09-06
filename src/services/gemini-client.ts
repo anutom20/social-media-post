@@ -4,7 +4,7 @@ import { GeneratedPost } from "@/types/interfaces";
 // TODO: Ask user - Should we use a singleton pattern for the Gemini client?
 // Or create new instances for each request?
 
-interface ProcessedPostData {
+export interface ProcessedPostData {
   vendorImage: Buffer;
   logo: Buffer;
   tone: string;
