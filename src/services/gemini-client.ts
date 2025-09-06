@@ -44,7 +44,7 @@ class GeminiService {
       // Extract the generated image
       if (response.generatedImages && response.generatedImages.length > 0) {
         const generatedImage = response.generatedImages[0];
-        const imgBytes = generatedImage.image.imageBytes;
+        const imgBytes = generatedImage.image?.imageBytes;
         // Return as data URL
         return `data:image/png;base64,${imgBytes}`;
       }
@@ -76,7 +76,9 @@ class GeminiService {
         - Analyze the two images provided (vendor image and logo) 
         - Create compelling, ready-to-post social media text that complements the images
         - Maintain a ${data.tone.toLowerCase()} tone throughout
-        - Expand and enhance the original post content: "${data.postText}" into a comprehensive, engaging post
+        - Expand and enhance the original post content: "${
+          data.postText
+        }" into a comprehensive, engaging post
         - Make it a detailed post of 400-500 words for maximum engagement and storytelling
         - Structure it with multiple paragraphs for readability
         - Include a compelling hook in the first sentence
