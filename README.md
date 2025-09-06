@@ -1,3 +1,15 @@
+
+## Output images of posts
+
+<img width="1024" height="1024" alt="output_1" src="https://github.com/user-attachments/assets/b94faacb-a1bc-47ea-bd72-8f7c0652e39d" />
+<img width="1024" height="1024" alt="output_2" src="https://github.com/user-attachments/assets/c16878b6-0c67-4535-a288-8e0f2bbdc779" />
+<img width="1024" height="1024" alt="output3" src="https://github.com/user-attachments/assets/b1910bb2-cb23-4f58-8c27-a53ada5313c8" />
+
+
+## Deployed URL
+[Live link](https://social-media-post-v5jo.vercel.app/)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
